@@ -13,7 +13,7 @@ suite = unittest.TestSuite()
 # 3 将测试用例添加到测试套件
 suite.addTest(unittest.makeSuite(LoginTest))
 suite.addTest(unittest.makeSuite(EmpTest))
-# 添加了一个备注
+# 添加了一个备注,又添加了一个备注的
 # 4 指定测试报告的地址
 report_path = app.BASE_DIR + "/report/ihrm.html"
 # 5 使用HTMLTestRunner运行测试套件
